@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto 1</title>
+    <%- include('partials/headLinks')  %> 
+
+</head>
+<body>
+
+    <%- include('partials/header')  %> 
+    <main>
+        <section class="productDetail-container">
+            <article class="productDetail-subcontainer">
+                <article class="productDetail-sub_article">
+                    <img class="sub_img" src="https://snow-country.com/components/com_easyblog/themes/wireframe/images/placeholder-image.png" alt="">
+                </article>
+                <article class="productDetail-sub_article">
+                    <article class="sub_article">
+                        <h3>Producto</h3>
+                        <h2><i class="fa-solid fa-dollar-sign"></i> 17.500 <span></span> </h2>
+                        <h4></h4>
+                    </article>
+                    <article class="sub_article_button">
+                        <button class="button_add">Agregar al carrito <i class="fa-solid fa-cart-plus"></i> </button>
+                        <button class="button_buy">Comprar Ahora <i class="fa-solid fa-credit-card"></i> </button>
+                    </article>
+                    <article class="sub_article">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, quos? Quas ipsum in similique ducimus?</p>
+                    </article>
+                </article>
+            </article>
+        </section>
+
+        <h1 class="title">PRODUCTOS RELACIONADOS</h1>
+        <section class="index-container">
+            <article class="index-subcontainer">
+                <article class="index-subcontainer_article">
+                    <img class="index_img" src="https://snow-country.com/components/com_easyblog/themes/wireframe/images/placeholder-image.png" alt="">
+                    <h4 class="index_h4" >$ 17.000</h4>
+                    <p class="index_p">Envío gratis <i class="fa-solid fa-truck"></i> </p>
+                    <h4>Product 1</h4>
+                </article>
+                <article class="index-subcontainer_article">
+                    <img class="index_img" src="https://snow-country.com/components/com_easyblog/themes/wireframe/images/placeholder-image.png" alt="">
+                    <h4 class="index_h4">$ 15.700</h4>
+                    <p class="index_p">Envío gratis <i class="fa-solid fa-truck"></i> </p>
+                    <h4>Product 2</h4>
+                </article>
+        
+            </article>
+        </section>
+    </main>
+    <%- include('partials/footer')  %> 
+
+</body>
+</html>

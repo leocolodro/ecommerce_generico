@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <%- include('partials/headLinks')  %> 
+</head>
+<body>
+
+    <%- include('partials/header')  %> 
+    <main>
+        <h1 class="title">LOGIN <i class="fa-solid fa-arrow-right-to-bracket"></i> </h1>
+        <section class="login-register_container">
+          <article class="login-register_subcontainer">
+            <article class="login-register_article">
+                <label class="login-register-article_label" for="">Correo electronico:</label>
+                <input class="login-register-article_input" type="email" name="" id="">
+            </article>      
+            <article class="login-register_article">
+                <label class="login-register-article_label" for=""> Contraseña: </label>
+                <input class="login-register-article_input" type="password" name="" id="">
+            </article>
+            <article class="login-register-article_div">
+                <div class="article_div">
+                    <input class="login-register-article_checkbox" type="checkbox" name="" id="">
+                    <p class="login-register-article_checkbox-p">Recuerdame</p>    
+                </div>
+                <div>
+                    <button class="login-register_button" >Acceder</button>
+                </div>
+            </article>
+
+            <article class="login-register_article">
+                <a href="" class="login-register-article_a" >¿Olvidaste tu contraseña?</a>    
+                <a href="/registro" class="login-register-article_a">Registrarse</a>
+            </article>
+            
+            
+                <a href="/" class="login-register-article_a"> <i class="fa-solid fa-arrow-left"></i> Volver a ECOM</a>
+          </article>  
+        </section>
+    </main>
+    <%- include('partials/footer')  %> 
+
+</body>
+</html>
